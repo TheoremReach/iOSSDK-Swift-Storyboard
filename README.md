@@ -10,10 +10,13 @@ For additional information, please see the [TheoremReach iOS SDK Integration](ht
 
 - **Language:** Swift
 - **UI Framework:** UIKit + Storyboards
-- **Min iOS Version:** iOS 14.0+
+- **Min iOS Version:** iOS 15.0+
 - **Frameworks:** TheoremReachSDK.xcframework, PlaytimeMonetize.xcframework
 
 ## Changelog
+### v3.7.0
+- The minimum is iOS 15.0 (it was 14.0), the oldest iOS that Xcode 27 builds for, and the example's with it
+
 ### v3.6.2
 - The status bar over the reward center follows its title: dark content when the title is darker than the title bar,
   and light when it's lighter. With a title all but invisible on the bar (an app that hides the toolbar can leave it
@@ -111,7 +114,7 @@ In Xcode, choose File > Add Package Dependencies, enter `https://github.com/Theo
 Add the following to your `podfile`
 
   ```groovy
-  pod 'TheoremReach', '3.6.2'
+  pod 'TheoremReach', '3.7.0'
   ```
 
   #### Manual:
